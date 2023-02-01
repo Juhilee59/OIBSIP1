@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <section class="menu">
+        <a class="menu-item active" id="about"> <i class="fas fa-user"></i> About</a>
+        <a class="menu-item" id="skills"> <i class="fas fa-feather-alt"></i> Skills</a>
+        <a class="menu-item" id="resume"> <i class="fas fa-list-alt"></i> Resume</a>
+        <a class="menu-item" id="works"> <i class="fas fa-tasks"></i> Works</a>
+    </section>
+
+    <section class="profile">
+        <div class="img-container"></div>
+        <div class="profile-body">
+            <p class="name">Juhilee Dhole</p>
+            <p class="role">Terna Engineering College</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="actions">
+            <button>Download cv</button>
+            <button>Contact me</button>
+        </div>
+    </section>
+
+    <section class="main">
+
+        <section class="asset split about" id="about-section">
+            <p class="title section-item"><span>About</span> me</p>
+            <div class="asset-body">
+                <div class="section-item">
+                    <p>Myself Juhilee Dhole,an enthusiast and determinant student pursuing CSE from University of Mumbai and having a dream and vision of becoming a data scientist</p>
+                </div>
+                <div class="section-item">
+                    <div class="item">
+                        <label>Age <span>.....</span></label>
+                        <p class="value">20</p>
+                    </div>
+                    <div class="item">
+                        <label>Country <span>.....</span></label>
+                        <p class="value">India</p>
+                    </div>
+                    <div class="item">
+                        <label>Profession<span>.....</span></label>
+                        <p class="value">Student</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="asset split" id="skills-section">
+            <p class="title section-item"><span>S</span>kills</p>
+            <div class="asset-body">
+                <div class="section-item">
+                    <p class="title"><i class="fas fa-code"></i>CODING</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i>HTML</li>
+                        <li><i class="fas fa-check"></i>CSS</li>
+                        <li><i class="fas fa-check"></i>Javascript</li>
+                        <li><i class="fas fa-check"></i>React Js</li>
+                        <li><i class="fas fa-check"></i>Python</li>
+                        <li><i class="fas fa-check"></i>Artifical intelligence</li>
+                    </ul>
+                </div>
+                <div class="section-item">
+                    <p class="title"><i class="fas fa-tools"></i>TOOLS</p>
+                    <ul>
+                        <li class="ide"><i class="fas fa-check"></i>VS Code</li>
+                        <li class="ide"><i class="fas fa-check"></i>Visual Studio</li>
+                        <li class="ide"><i class="fas fa-check"></i>Eclipse Ide</li>
+                        <li class="ui"><i class="fas fa-check"></i>Intellig</li>
+                        <li class="ui"><i class="fas fa-check"></i>Figma</li>
+                        <li class="ui"><i class="fas fa-check"></i>Illustrator</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="asset" id="works-section">
+            <p class="title section-item"><span>Recent</span> Projects</p>
+            <div class="asset-body grid">
+
+                <div class="work-item">
+                    <div class="img-content">
+                        <img src="library-shelf.jpg" alt="project image">
+                        <a href="#" class="more-overlay">More Info...</a>
+                    </div>
+                    <p class="project-name">Library Management System</p>
+                </div>
+
+                <div class="work-item">
+                    <div class="img-content">
+                        <img src="Integrated-Farming-Systems.jpg" alt="project image">
+                        <a href="#" class="more-overlay">More Info...</a>
+                    </div>
+                    <p class="project-name">Farming Assistant</p>
+                </div>
+
+                <div class="work-item">
+                    <div class="img-content">
+                        <img src="download.jpeg" alt="project image">
+                        <a href="#" class="more-overlay">More Info...</a>
+                    </div>
+                    <p class="project-name">Spotify</p>
+                </div>
+
+                <div class="work-item">
+                    <div class="img-content">
+                        <img src="photo-1611605698335-8b1569810432_ixlib=rb-1.2.webp" alt="project image">
+                        <a href="#" class="more-overlay">More Info...</a>
+                    </div>
+                    <p class="project-name">Twitter Clone</p>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+
+    <script src ="portfolio.js"></script>
+</body>
+
+</html>
